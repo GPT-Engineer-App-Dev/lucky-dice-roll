@@ -7,7 +7,7 @@ const RandomNumber = () => {
   const random = new Random();
 
   const generateRandomNumber = () => {
-    const randomNumber = random.integer(1, 100);
+    const randomNumber = random.integer(1, 10);
     setNumber(randomNumber);
   };
 
